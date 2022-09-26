@@ -1,0 +1,15 @@
+main: mc.obliviate.singledungeon.SingleDungeon
+author: Mr_Obliviate
+name: SingleDungeon
+version: 1.0.0
+api-version: 1.13
+description: Provides a single player dungeon game experience.
+softdepend:
+  - Multiverse-Core
+commands:
+  start:
+    description: teleports you to the start location that has been given in the config.yml
+  leave:
+    description: stops your session, teleports you to your old location and give your old stuff back
+  stats:
+    description: opens a gui with your stats.
